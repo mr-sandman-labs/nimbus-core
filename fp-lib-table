@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "connector")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/connector.pretty")(options "")(descr ""))
+  (lib (name "diode")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/diode.pretty")(options "")(descr ""))
+  (lib (name "ic")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/ic.pretty")(options "")(descr ""))
+  (lib (name "layout")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/layout.pretty")(options "")(descr ""))
+  (lib (name "passive")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/passive.pretty")(options "")(descr ""))
+)

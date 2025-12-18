@@ -16842,7 +16842,7 @@
 		)
 		(uuid "afcfee7a-1cf2-4b1f-81bf-218f3da7854f")
 	)
-	(label "PC4"
+	(label "PA4"
 		(at 214.63 262.89 180)
 		(effects
 			(font
@@ -16993,7 +16993,7 @@
 		(uuid "c23831ed-ce95-4fec-ac40-219f044cb8de")
 	)
 	(label "SWO"
-		(at 280.67 113.03 0)
+		(at 279.4 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17672,7 +17672,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "05a36a6e-af50-4080-b630-a114a6b92bdf")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 219.71 184.15 0)
 			(effects
 				(font
@@ -17723,7 +17723,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18798,7 +18798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "100097ca-9961-4b31-9dec-e0f94b372d06")
-		(property "Reference" "R16"
+		(property "Reference" "R10"
 			(at 292.1 189.23 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18976,7 +18976,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -19058,7 +19058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11a7fc78-aee3-4f38-b777-a218b3f719e3")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 299.72 200.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19236,7 +19236,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -19251,7 +19251,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "150469b5-43da-4974-9b71-5612e5e4eeb2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 304.8 123.19 0)
 			(effects
 				(font
@@ -19301,7 +19301,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19498,7 +19498,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "1797a8d8-cf12-443e-a976-81259090a101")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 322.58 209.55 0)
 			(effects
 				(font
@@ -19549,7 +19549,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19565,7 +19565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0a0677-e3ff-456f-9c08-695f2d4738ab")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 101.6 163.83 90)
 			(effects
 				(font
@@ -19739,7 +19739,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -19946,7 +19946,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "231931a7-db02-48f3-a671-ebdaeaa00a8a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 298.45 214.63 0)
 			(effects
 				(font
@@ -19997,7 +19997,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20013,7 +20013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261e2206-991e-443b-a91f-ea00237a41ca")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 170.18 161.29 90)
 			(effects
 				(font
@@ -20187,7 +20187,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -20202,7 +20202,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "2631546b-2e75-4f55-aea5-bc356dde3aa7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 111.76 59.69 0)
 			(effects
 				(font
@@ -20253,7 +20253,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20268,7 +20268,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "2fe8627a-f3ab-43f2-ad21-8a3e80521b6e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 121.92 54.61 0)
 			(effects
 				(font
@@ -20318,7 +20318,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -20836,7 +20836,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "3563500b-9c69-49ac-9711-a340c609e3ca")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 350.52 44.45 0)
 			(effects
 				(font
@@ -20887,7 +20887,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -21472,7 +21472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42d5da54-2c6d-4597-9325-cc0eeb84362a")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 323.85 44.45 0)
 			(effects
 				(font
@@ -21677,7 +21677,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -21692,7 +21692,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "44f2fd9a-7d9e-4445-8904-62d874fdba58")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 327.66 199.39 0)
 			(effects
 				(font
@@ -21743,7 +21743,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21758,7 +21758,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "47e4c7d2-5383-455c-96fc-98756b2af3a8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -21808,7 +21808,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -21889,7 +21889,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "5203c9a8-c159-4b94-80d6-f30f8f2921c8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 160.02 278.13 0)
 			(effects
 				(font
@@ -21940,7 +21940,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21955,7 +21955,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "526bdaf5-cbc4-4932-bd38-1265e31f2612")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 337.82 214.63 0)
 			(effects
 				(font
@@ -22006,7 +22006,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -22203,7 +22203,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "57ac4357-3cea-4e4c-93bc-0d631dcda6d3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 229.87 278.13 0)
 			(effects
 				(font
@@ -22254,7 +22254,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -23263,7 +23263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64602342-fe1a-4091-9f76-7821b01f80e6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 382.27 214.63 0)
 			(effects
 				(font
@@ -23314,7 +23314,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23703,7 +23703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f7d39dd-dee1-4f9c-a64e-2dc6eb13f461")
-		(property "Reference" "R20"
+		(property "Reference" "R13"
 			(at 317.5 114.2999 0)
 			(effects
 				(font
@@ -23879,7 +23879,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R20")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -24397,7 +24397,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "72c21784-aaa4-45d9-98c0-89627db1cff0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 182.88 166.37 0)
 			(effects
 				(font
@@ -24449,7 +24449,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -24464,7 +24464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74874594-4368-4a51-9bee-68011b4a1cc7")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 351.79 199.3899 0)
 			(effects
 				(font
@@ -24640,7 +24640,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -24840,7 +24840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7924e1eb-231e-4065-9ccd-f24f04510184")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 162.56 175.2599 0)
 			(effects
 				(font
@@ -25016,7 +25016,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -25032,7 +25032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7973ccb2-df30-4fe1-8f14-cec38ef130b4")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 344.17 29.21 90)
 			(effects
 				(font
@@ -25206,7 +25206,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -25221,7 +25221,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "7a175e72-0c85-470d-a682-d62f484e0c3a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -25271,7 +25271,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -25287,7 +25287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7edb2c6d-7b0a-46d3-a684-5a7759d444bd")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 311.15 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -25461,7 +25461,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -25477,7 +25477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f29deaf-849a-42c1-ae1b-2a61c86245b8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 355.6 87.63 0)
 			(effects
 				(font
@@ -25528,7 +25528,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -26095,7 +26095,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "853579b6-2516-4b79-a208-06b9f7a31378")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 118.11 168.91 0)
 			(effects
 				(font
@@ -26145,7 +26145,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -26377,7 +26377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88bd6dc0-2591-4a20-beec-26a35c948ebc")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 101.6 173.99 90)
 			(effects
 				(font
@@ -26551,7 +26551,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -26567,7 +26567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6acb2a-9628-4857-9831-672d85b365fc")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 162.56 162.5599 0)
 			(effects
 				(font
@@ -26743,7 +26743,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -26758,7 +26758,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "8e5e2c4e-cc76-4d7b-abe1-088874a8c98c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 160.02 171.45 0)
 			(effects
 				(font
@@ -26808,7 +26808,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -27879,7 +27879,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "9dda582a-f0ec-43f7-8a85-c94cfcf46ecf")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 350.52 116.84 0)
 			(effects
 				(font
@@ -27930,7 +27930,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -28448,7 +28448,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "a2f16a73-35b3-4e04-a1fd-b36ccf16f097")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 179.07 189.23 0)
 			(effects
 				(font
@@ -28499,7 +28499,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -28515,7 +28515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4878c38-c7f5-4022-8a2b-50d2fdda2c09")
-		(property "Reference" "R22"
+		(property "Reference" "R15"
 			(at 339.09 63.4999 0)
 			(effects
 				(font
@@ -28691,7 +28691,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R22")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -28773,7 +28773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60a48df-20f5-46cf-b914-4e5f020f9545")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 325.12 26.67 0)
 			(do_not_autoplace yes)
 			(effects
@@ -28949,7 +28949,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -29328,7 +29328,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b059f176-c8dc-4ddd-ae2e-e3544d077678")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 162.56 34.29 0)
 			(effects
 				(font
@@ -29378,7 +29378,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -29394,7 +29394,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b44eda47-fb88-41f5-94cc-7a2744a74f2e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 322.58 53.34 0)
 			(effects
 				(font
@@ -29446,7 +29446,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -29461,7 +29461,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b7cb9419-bcfa-42de-a811-24c2f53b7d7e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 217.17 170.18 0)
 			(effects
 				(font
@@ -29513,7 +29513,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -29528,7 +29528,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b864b85f-f101-4245-b974-9e4ee14a562b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 106.68 172.72 0)
 			(effects
 				(font
@@ -29578,7 +29578,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -29593,7 +29593,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b8ed095a-57ff-4b78-9fb4-3d08ac703991")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 375.92 209.55 0)
 			(effects
 				(font
@@ -29644,7 +29644,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -29841,7 +29841,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "bc750e8c-555f-456d-833e-da89b2d52b1a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 290.83 198.12 0)
 			(effects
 				(font
@@ -29891,7 +29891,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -30591,7 +30591,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "c31b6739-eb0e-4691-b3b6-e1289fc46233")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 340.36 50.8 0)
 			(effects
 				(font
@@ -30642,7 +30642,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -30657,7 +30657,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "c4db5b5d-3f2e-4ed1-aebd-96105d9caacf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 375.92 201.93 0)
 			(effects
 				(font
@@ -30707,7 +30707,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR047")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -31152,7 +31152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c636653d-040c-47f1-87ed-a62375b05fd2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 358.14 118.11 0)
 			(effects
 				(font
@@ -31203,7 +31203,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -31219,7 +31219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d4159d-fada-4e75-b160-6985dc640469")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 148.59 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -31393,7 +31393,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -31408,7 +31408,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "ca5bc548-21b3-4700-a499-65b2dce0b60b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 373.38 195.58 0)
 			(effects
 				(font
@@ -31460,7 +31460,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -31475,7 +31475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbdc4b44-7ab3-4a5a-a989-1711c6380717")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 317.5 26.67 90)
 			(do_not_autoplace yes)
 			(effects
@@ -31651,7 +31651,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -31667,7 +31667,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "cca5c952-62b3-4d8a-b304-0df39183970c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 304.8 53.34 0)
 			(effects
 				(font
@@ -31719,7 +31719,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -31916,7 +31916,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "cf0fcf27-5ae0-459a-9e9d-2fbe4fdde499")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 336.55 82.55 0)
 			(effects
 				(font
@@ -31967,7 +31967,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -32048,7 +32048,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "d2857273-9027-426e-90bd-fd54f5a140c2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 337.82 31.75 0)
 			(effects
 				(font
@@ -32100,7 +32100,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -32115,7 +32115,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "d8adabd1-954f-4cbe-8b83-255a83d02136")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 350.52 100.33 0)
 			(effects
 				(font
@@ -32165,7 +32165,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -32180,7 +32180,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "da7efbe5-033a-4259-820c-4b19529c25bc")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -32231,7 +32231,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -32429,7 +32429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dffbc60f-8ba6-4e59-91e8-08420f9d4ea9")
-		(property "Reference" "R23"
+		(property "Reference" "R16"
 			(at 337.82 36.8299 0)
 			(effects
 				(font
@@ -32605,7 +32605,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -32620,7 +32620,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "e0ef7d20-11bd-43ce-ac3e-15b3988fc481")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 219.71 176.53 0)
 			(effects
 				(font
@@ -32670,7 +32670,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -32685,7 +32685,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "e41e655b-c4d4-4f60-a77d-d26b1cd48b57")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 173.99 278.13 0)
 			(effects
 				(font
@@ -32736,7 +32736,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -32933,7 +32933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e696d659-bae6-4fbe-b28c-f9c4aa9447ea")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 195.58 173.9899 0)
 			(effects
 				(font
@@ -33109,7 +33109,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -33125,7 +33125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dce693-136d-4912-8008-d6b83deeab9e")
-		(property "Reference" "R19"
+		(property "Reference" "R12"
 			(at 307.34 114.2999 0)
 			(effects
 				(font
@@ -33301,7 +33301,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R19")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -33529,7 +33529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebff12f8-b65e-4988-9d7f-1e202e90b89a")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 349.25 63.4999 0)
 			(effects
 				(font
@@ -33705,7 +33705,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R25")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -33721,7 +33721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf3d143-382e-4512-929c-ec40a8499e96")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 109.22 163.8299 0)
 			(effects
 				(font
@@ -33897,7 +33897,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -33912,7 +33912,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "ef1a55dd-33e6-47eb-a7ec-f2622f4b6e2a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 118.11 173.99 0)
 			(effects
 				(font
@@ -33963,7 +33963,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -34373,7 +34373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f543a495-64ca-4318-9f10-1bd9879c2af0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 226.06 189.23 0)
 			(effects
 				(font
@@ -34424,7 +34424,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -34439,7 +34439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9d27378-5e1f-402d-ac78-2449a682144b")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 195.58 163.8299 0)
 			(effects
 				(font
@@ -34615,7 +34615,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -35137,7 +35137,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "fcf650a0-5fb4-422b-ab7a-c59434e141f4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -35188,7 +35188,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -35203,7 +35203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff54a9c1-ad09-4b23-a0a4-1d5a34bde0fc")
-		(property "Reference" "R26"
+		(property "Reference" "R19"
 			(at 351.79 189.2299 0)
 			(effects
 				(font
@@ -35379,7 +35379,7 @@
 		(instances
 			(project "nimbus-core"
 				(path "/8539460a-ad71-46a8-96b2-90f167b910ab"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)

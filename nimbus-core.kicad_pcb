@@ -270,6 +270,8 @@
 	(net 106 "Net-(U2-RS)")
 	(net 107 "Net-(U2-LBK)")
 	(net 108 "Net-(R14-Pad2)")
+	(net 109 "unconnected-(U6-Pad-)")
+	(net 110 "unconnected-(U6-PadMP)")
 	(footprint "passive:C_0805_Density_Nominal"
 		(layer "F.Cu")
 		(uuid "01827cd1-57d4-4e3f-9c86-8fd6f2c8d121")
@@ -8230,6 +8232,300 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "passive:CMT-8504-100-SMT-TR"
+		(layer "F.Cu")
+		(uuid "5513356d-0b3d-49b3-a96e-0cb5a58acb91")
+		(at 201.25 98.5)
+		(property "Reference" "U6"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5dd206da-fa63-473e-a214-6c930fe032c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519d61a5-5479-42f1-89c4-5cc3bbc8c194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86b602b7-d87e-4ef3-817d-569278bac0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Buzzer Magnetic 100dB @ 10cm 1-6V 4000Hz 12-18Ω -40°C +85°C "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e6b307-1bbd-446a-8a27-7c8daa7223bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0e1ace9-b1d8-4330-a6b4-65113459c131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CMT-8504-100-SMT-TR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c5e0d9a-f4ad-439d-afc6-30c85ac7abd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Magnetic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c73c334-9b05-4ae6-b160-1abf5c2e041e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "1-6V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a809b8c9-7a9d-4ea2-8d2a-0e9bdc58b819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Frequency" "4000Hz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e650d39a-6f25-42e9-b241-a8608a9ff867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sound Pressure Level" "100dB @ 10cm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aae10aa0-7356-44c0-8029-a224ce2ed813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Coil Resistance" "12-18Ω"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56fdc06f-dac5-4ea1-932d-fa6ee1108749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Minimum Temperature" "-40°C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6bdbc5a-2c0a-46fb-88ad-005085b7d459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Maximum Temperature" "+85°C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b36666e0-a49b-400f-a236-c6d08e3d0ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ratings" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16cd77db-2b9d-4541-b30a-f07cdb0bf1dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mass" "0.6g"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f242ebab-e621-4335-90d7-5bf1399d847f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ff9ed17d-2641-402e-a825-379749bef3d7")
+		(sheetname "/")
+		(sheetfile "nimbus-core.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -5 -5)
+			(end 5 5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b9695dbd-e87e-405a-9ace-e6c5c6af91c2")
+		)
+		(fp_rect
+			(start -4.25 -4.25)
+			(end 4.25 4.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "94707121-90ee-407b-b3b3-d2800d42647f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e3ce6ca6-5f72-4a26-9698-d304776646eb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(pad "+" smd roundrect
+			(at -3.5 -3.5)
+			(size 2.5 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "+3.3V")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "8e112042-d74d-421b-850e-b488a61ffe97")
+		)
+		(pad "-" smd roundrect
+			(at -3.5 3.5)
+			(size 2.5 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 109 "unconnected-(U6-Pad-)")
+			(pinfunction "-")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "061e0fca-f9d2-487a-b08d-f11ab48c6263")
+		)
+		(pad "MP" smd roundrect
+			(at 3.5 -3.5)
+			(size 2.5 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 110 "unconnected-(U6-PadMP)")
+			(pinfunction "MP")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "c7a0f536-2e1b-4002-a5eb-56e72a81ff82")
+		)
+		(pad "MP" smd roundrect
+			(at 3.5 3.5)
+			(size 2.5 2.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 110 "unconnected-(U6-PadMP)")
+			(pinfunction "MP")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "e724416c-637d-4133-9bec-3371a0688a95")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/kicad-library/3dmodels/passive/CMT-8504-100-SMT-TR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -18156,7 +18452,7 @@
 				)
 			)
 		)
-		(path "/710a1836-28b5-4acf-976e-f4de17137503")
+		(path "/38e94770-42d6-4b25-b6e7-a932761a8820")
 		(sheetname "/")
 		(sheetfile "nimbus-core.kicad_sch")
 		(attr smd)

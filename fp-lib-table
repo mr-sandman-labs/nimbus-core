@@ -6,4 +6,5 @@
   (lib (name "passive")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/passive.pretty")(options "")(descr ""))
   (lib (name "integrated_semiconductor")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/integrated_semiconductor.pretty")(options "")(descr ""))
   (lib (name "discrete_semiconductor")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/discrete_semiconductor.pretty")(options "")(descr ""))
+  (lib (name "electromechanical")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/electromechanical.pretty")(options "")(descr ""))
 )

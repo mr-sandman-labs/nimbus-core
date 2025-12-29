@@ -717,7 +717,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://nimbus-sheet.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -735,5 +735,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DESIGNER": "Gianluca Gaiardi",
+    "LICENSE": "CERN-OHL-S",
+    "ORGANIZATION": "Mr. Sandman Labs",
+    "REVIEWER": "Gianluca Gaiardi",
+    "URL": "https://github.com/mr-sandman-labs/nimbus-core"
+  }
 }

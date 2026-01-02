@@ -65,6 +65,26 @@ jobs:
           kicad-cli pcb export odb "$PCB_FILE" \
           --output "$OUTPUT_DIR"/odb++.zip
 
+      - name: Generate netlist
+        run: |
+          kicad-cli sch export netlist "$SCH_FILE" \
+          --output "$OUTPUT_DIR"/netlist.net
+
+      - name: Generate interactive HTML BOM
+        run: |
+          generate_interactive_bom "$PCB_FILE" \
+          --extra-data-file "$OUTPUT_DIR"/netlist.net \
+          --show-fields "Manufacturer,Manufacturer Part Number" \
+          --group-fields "Manufacturer Part Number" \
+          --dark-mode \
+          --highlight-pin1 all \
+          --include-tracks \
+          --include-nets \
+          --show-fabrication \
+          --checkboxes Placed \
+          --no-browser \
+          --dest-dir "$OUTPUT_DIR"
+
       - name: Generate images
         run: |
           kicad-cli pcb render "$PCB_FILE" \

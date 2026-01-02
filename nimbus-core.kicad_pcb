@@ -9,8 +9,8 @@
 	(paper "A3")
 	(title_block
 		(title "Nimbus Core")
-		(date "01/01/2026")
-		(rev "1.0.0")
+		(date "${DATE}")
+		(rev "${REVISION}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -166,10 +166,12 @@
 			(outputdirectory "")
 		)
 	)
+	(property "DATE" "02/01/2026")
 	(property "DESIGNER" "Gianluca Gaiardi")
 	(property "LICENSE" "CERN-OHL-S")
 	(property "ORGANIZATION" "Mr. Sandman Labs")
 	(property "REVIEWER" "Gianluca Gaiardi")
+	(property "REVISION" "1.0.0")
 	(property "URL" "https://github.com/mr-sandman-labs/nimbus-core")
 	(net 0 "")
 	(net 1 "GND")

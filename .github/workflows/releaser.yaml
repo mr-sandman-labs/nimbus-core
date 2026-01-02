@@ -27,13 +27,6 @@ jobs:
           fi
           echo "REVISION=$REVISION" >> $GITHUB_ENV
 
-      - name: Validate revision number
-        run: |
-          if gh release view "$REVISION" >/dev/null 2>&1; then
-            echo "ERROR: Release $REVISION already exists"
-            exit 1
-          fi
-
       - name: Install dependencies
         run: |
           sudo add-apt-repository ppa:kicad/kicad-9.0-releases

@@ -18,8 +18,8 @@ jobs:
 
       - name: Generate images
         run: |
-          kicad-cli pcb render nimbus-core.kicad_pcb --output isometric_top.png --quality high --width 2000 -height 2000 --zoom 0.9 --rotate 315,0,45
-          kicad-cli pcb render nimbus-core.kicad_pcb --output isometric_bottom.png --quality high --width 2000 -height 2000 --zoom 0.9 --rotate 315,180,135
+          kicad-cli pcb render nimbus-core.kicad_pcb --output isometric_top.png --quality high --width 2000 --height 2000 --zoom 0.9 --rotate 315,0,45
+          kicad-cli pcb render nimbus-core.kicad_pcb --output isometric_bottom.png --quality high --width 2000 --height 2000 --zoom 0.9 --rotate 315,180,135
 
       - name: Commit results
         run: |

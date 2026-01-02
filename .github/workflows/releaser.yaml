@@ -26,6 +26,10 @@ jobs:
           sudo apt update
           sudo apt install kicad -y --no-install-recommends
 
+      - name: Install InteractiveHtmlBom
+        run: |
+          pip3 install InteractiveHtmlBom
+
       - name: Generate schematic PDF
         run: |
           kicad-cli sch export pdf "$SCH_FILE" \

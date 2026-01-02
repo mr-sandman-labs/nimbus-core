@@ -6,7 +6,6 @@ env:
   IMAGE_WIDTH: 2000
   IMAGE_HEIGHT: 2000
   OUTPUT_DIR: release
-  REVISION: ${{ steps.revision.outputs.revision }}
 on:
   workflow_dispatch:
 jobs:
@@ -26,6 +25,7 @@ jobs:
             echo "ERROR: REVISION field is missing"
             exit 1
           fi
+          echo "REVISION=$REVISION" >> $GITHUB_ENV
 
       - name: Validate revision number
         run: |

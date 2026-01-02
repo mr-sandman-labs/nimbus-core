@@ -50,12 +50,14 @@ jobs:
       - name: Generate PCB PDF
         run: |
           kicad-cli pcb export pdf "$PCB_FILE" \
-          --output "$OUTPUT_DIR"/board.pdf \
+          --output "$OUTPUT_DIR" \
           --mode-multipage \
           --include-border-title \
           --sketch-pads-on-fab-layers \
           --layers F.Fab,B.Fab,F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask \
           --common-layers Edge.Cuts
+
+          mv "$OUTPUT_DIR/$(basename "$PCB_FILE" .kicad_pcb).pdf" "$OUTPUT_DIR/pcb.pdf"
 
       - name: Generate BOM
         run: |
@@ -121,6 +123,7 @@ jobs:
 
       - name: Create GitHub release
         run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
           zip -r release.zip "$OUTPUT_DIR"
           gh release create "$REVISION" release.zip \
           --title "$REVISION"

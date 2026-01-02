@@ -15,7 +15,7 @@ jobs:
         run: |
           sudo add-apt-repository ppa:kicad/kicad-9.0-releases
           sudo apt update
-          sudo apt install -y kicad
+          sudo apt install -y kicad kicad-common --no-install-recommends
 
       - name: Generate images
         run: |
@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add output/
+          git add isometric_top.png isometric_bottom.png
           git commit -m "Update PCB images" || echo "No changes"
           git push

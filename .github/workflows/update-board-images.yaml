@@ -19,6 +19,10 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Install font
+        run: |
+          sudo apt install fonts-open-sans
+
       - name: Install KiCad
         run: |
           sudo add-apt-repository ppa:kicad/kicad-9.0-releases

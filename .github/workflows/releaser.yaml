@@ -16,6 +16,10 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Install font
+        run: |
+          sudo apt install fonts-open-sans
+
       - name: Install KiCad
         run: |
           sudo add-apt-repository ppa:kicad/kicad-9.0-releases
@@ -41,10 +45,10 @@ jobs:
         run: |
           kicad-cli sch export bom "$SCH_FILE" \
           --output "$OUTPUT_DIR"/bom.csv \
-          --fields Reference,${QUANTITY},Manufacturer,Manufacturer Part Number \
-          --labels Reference,Quantity,Manufacturer,Manufacturer Part Number \
-          --group-by Manufacturer Part Number \
-          --sort-field Reference
+          --fields "Reference,${QUANTITY},Manufacturer,Manufacturer Part Number" \
+          --labels "Reference,Quantity,Manufacturer,Manufacturer Part Number" \
+          --group-by "Manufacturer Part Number" \
+          --sort-field "Reference"
 
       - name: Generate gerber
         run: |

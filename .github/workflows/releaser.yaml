@@ -1,0 +1,79 @@
+name: Releaser
+env:
+  PCB_FILE: nimbus-core.kicad_pcb
+  SCH_FILE: nimbus-core.kicad_sch
+  IMAGE_WIDTH: 2000
+  IMAGE_HEIGHT: 2000
+  OUTPUT_DIR: release
+on:
+  workflow_dispatch:
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install kicad -y --no-install-recommends
+
+      - name: Generate schematic PDF
+        run: |
+          kicad-cli sch export pdf "$SCH_FILE" \
+          --output "$OUTPUT_DIR"/schematic.pdf
+
+      - name: Generate PCB PDF
+        run: |
+          kicad-cli pcb export pdf "$PCB_FILE" \
+          --output "$OUTPUT_DIR" \
+          --mode-multipage \
+          --include-border-title \
+          --sketch-pads-on-fab-layers \
+          --layers F.Fab,B.Fab,F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask \
+          --common-layers Edge.Cuts
+
+      - name: Generate BOM
+        run: |
+          kicad-cli sch export bom "$SCH_FILE" \
+          --output "$OUTPUT_DIR"/bom.csv \
+          --fields Reference,${QUANTITY},Manufacturer,Manufacturer Part Number \
+          --labels Reference,Quantity,Manufacturer,Manufacturer Part Number \
+          --group-by Manufacturer Part Number \
+          --sort-field Reference
+
+      - name: Generate gerber
+        run: |
+          kicad-cli pcb export gerbers "$PCB_FILE" \
+          --output "$OUTPUT_DIR"/gerber \
+          --layers F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts \
+          --crossout-DNP-footprints-on-fab-layers
+          kicad-cli pcb export drill "$PCB_FILE" \
+          --output "$OUTPUT_DIR"/gerber
+          zip -r "$OUTPUT_DIR"/gerber.zip "$OUTPUT_DIR"/gerber
+
+      - name: Generate ODB++
+        run: |
+          kicad-cli pcb export odb "$PCB_FILE" \
+          --output "$OUTPUT_DIR"/odb++.zip
+
+      - name: Generate images
+        run: |
+          kicad-cli pcb render "$PCB_FILE" \
+          --output isometric_top.png \
+          --quality high \
+          --width 2000 \
+          --height 2000 \
+          --zoom 0.9 \
+          --rotate 315,0,45
+          kicad-cli pcb render "$PCB_FILE" \
+          --output isometric_bottom.png \
+          --quality high \
+          --width 2000 \
+          --height 2000 \
+          --zoom 0.9 \
+          --rotate 315,180,135

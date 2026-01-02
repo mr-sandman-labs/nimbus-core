@@ -16,18 +16,12 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Install font
-        run: |
-          sudo apt install fonts-open-sans
-
-      - name: Install KiCad
+      - name: Install dependencies
         run: |
           sudo add-apt-repository ppa:kicad/kicad-9.0-releases
           sudo apt update
           sudo apt install kicad -y --no-install-recommends
-
-      - name: Install InteractiveHtmlBom
-        run: |
+          sudo apt install -y fonts-open-sans xvfb
           pip3 install InteractiveHtmlBom
 
       - name: Generate schematic PDF
@@ -76,6 +70,7 @@ jobs:
 
       - name: Generate interactive HTML BOM
         run: |
+          xvfb-run --auto-servernum \
           generate_interactive_bom "$PCB_FILE" \
           --extra-data-file "$OUTPUT_DIR"/netlist.net \
           --show-fields "Manufacturer,Manufacturer Part Number" \

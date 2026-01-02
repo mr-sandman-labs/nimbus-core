@@ -121,6 +121,6 @@ jobs:
 
       - name: Create GitHub release
         run: |
-          zip release.zip "$OUTPUT_DIR"
+          zip -r release.zip "$OUTPUT_DIR"
           gh release create "$REVISION" release.zip \
           --title "$REVISION"

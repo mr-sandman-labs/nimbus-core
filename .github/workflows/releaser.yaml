@@ -1,5 +1,6 @@
 name: Releaser
 env:
+  PROJECT_FILE: nimbus-core.kicad_pro
   PCB_FILE: nimbus-core.kicad_pcb
   SCH_FILE: nimbus-core.kicad_sch
   IMAGE_WIDTH: 2000
@@ -15,6 +16,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+
+      - name: Extract revision
+        run: |
+          REVISION=$(jq -r '.text_variables.REVISION' "$PROJECT_FILE")
+          if [ -z "$REVISION" ] || [ "$REVISION" = "null" ]; then
+            echo "ERROR: REVISION field is missing"
+            exit 1
+          fi
 
       - name: Install dependencies
         run: |

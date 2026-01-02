@@ -6372,7 +6372,7 @@
 				)
 			)
 		)
-		(attr smd board_only)
+		(attr smd board_only exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
@@ -7548,14 +7548,14 @@
 			(at -3.4 0 45)
 			(size 0.9 0.9)
 			(drill 0.9)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "5409fa0c-05b1-4b47-b674-d741d901646e")
 		)
 		(pad "" np_thru_hole circle
 			(at 3.4 0 45)
 			(size 0.9 0.9)
 			(drill 0.9)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "9e2b9116-500c-4f6f-a06d-4c098a9b0abb")
 		)
 		(pad "1" smd roundrect
@@ -11496,7 +11496,7 @@
 				)
 			)
 		)
-		(attr smd board_only)
+		(attr smd board_only exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19119,14 +19119,14 @@
 			(at -10.065 2.665 270)
 			(size 1.02 1.02)
 			(drill 1.02)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "4e904270-fe83-4f7b-ad3b-ef83b16d476c")
 		)
 		(pad "" np_thru_hole circle
 			(at 10.065 2.665 270)
 			(size 1.02 1.02)
 			(drill 1.02)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "44f3ea55-1c07-40fa-a06a-17a847ff2f38")
 		)
 		(pad "1" smd roundrect

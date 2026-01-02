@@ -561,6 +561,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -646,46 +647,340 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bus Fault Voltage",
+          "name": "Bus Fault Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Channels",
+          "name": "Channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Clamping Voltage",
+          "name": "Clamping Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Coil Resistance",
+          "name": "Coil Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector Current",
+          "name": "Collector Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector-Emitter Voltage",
+          "name": "Collector-Emitter Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Core",
+          "name": "Core",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Current Gain",
+          "name": "DC Current Gain",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dialectric",
+          "name": "Dialectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR",
+          "name": "ESR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Emitter-Base Voltage",
+          "name": "Emitter-Base Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Flash Memory",
+          "name": "Flash Memory",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Current",
+          "name": "Forward Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage",
+          "name": "Forward Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GPIO",
+          "name": "GPIO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gender",
+          "name": "Gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Capacitance",
+          "name": "Load Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mass",
+          "name": "Mass",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Current",
+          "name": "Maximum Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Frequency",
+          "name": "Maximum Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Temperature",
+          "name": "Maximum Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Voltage",
+          "name": "Maximum Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Temperature",
+          "name": "Minimum Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting",
+          "name": "Mounting",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Orientation",
+          "name": "Orientation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pins",
+          "name": "Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RAM",
+          "name": "RAM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ratings",
+          "name": "Ratings",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage",
+          "name": "Reverse Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Shell Stake Length",
+          "name": "Shell Stake Length",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sound Pressure Level",
+          "name": "Sound Pressure Level",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stability",
+          "name": "Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Working Voltage",
+          "name": "Working Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Breakdown Voltage",
+          "name": "Breakdown Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

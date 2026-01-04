@@ -101,22 +101,6 @@
         [
           "diff_pair_gap_out_of_range|144696731|93257639|68557d39-ef1e-4e92-ad3d-3ffd16077fc8|64339fbf-2e63-436c-9920-d81997b5805e",
           ""
-        ],
-        [
-          "hole_clearance|133369548|86122961|86397df6-37f7-4e5a-81b7-ee2cd79d64cc|6838bae4-ba4d-46f0-b6ce-87da5c326512",
-          ""
-        ],
-        [
-          "hole_clearance|133369548|86122961|86397df6-37f7-4e5a-81b7-ee2cd79d64cc|e3b49b45-5c45-4a65-89c5-3cd821064af5",
-          ""
-        ],
-        [
-          "hole_clearance|137682899|81809610|7b2094fe-9444-435d-9bec-3115da0d6276|bc2edd02-7cb0-4393-aa0b-d1953dc545d3",
-          ""
-        ],
-        [
-          "hole_clearance|137682899|81809610|7b2094fe-9444-435d-9bec-3115da0d6276|d8039a89-1dbc-4c04-be6d-278dcfc207fc",
-          ""
         ]
       ],
       "meta": {
